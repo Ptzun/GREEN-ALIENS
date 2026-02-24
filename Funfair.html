@@ -346,6 +346,27 @@
   }
 
 }
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    padding: 120px 20px 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .blob {
+    height: 250px;
+  }
+}
+@media (max-width: 576px) {
+  .flip-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 15px auto;
+  }
+}
 </style>
 </head>
 <body>
@@ -425,44 +446,48 @@
             </div>
         </nav>
 <header class="hero">
-<div class="container row align-items-center mx-auto mt-5">
-<div class="col-lg-7">
+  <div class="container">
+    <div class="row align-items-center gy-4 text-center text-lg-start">
+      
+      <div class="col-12 col-lg-7">
+        <h1>Park Revival <br>Funfair.</h1>
+        <p class="fs-5 mt-3">
+          Restoring our green spaces through celebration and community action.
+        </p>
+      </div>
 
-<h1>Park Revival <br>Funfair.</h1>
-<p class="fs-5 mt-3">Restoring our green spaces through celebration and community action.</p>
-</div>
-<div class="col-lg-5 text-center">
-<div class="blob"><img src="https://media01.nattieontheroad.com/wp-content/uploads/2017/10/30121847/P118-fairride.jpg">
-</div>
-</div>
-</div>
+      <div class="col-12 col-lg-5 text-center">
+        <div class="blob mx-auto">
+          <img src="https://media01.nattieontheroad.com/wp-content/uploads/2017/10/30121847/P118-fairride.jpg">
+        </div>
+      </div>
+
+    </div>
+  </div>
 </header>
-<section class="content-area organizers-section">
-<h2 style="text-align:center; font-size:2.5rem;">Meet the Organisers</h2>
-<div class="organizer-card">
-<img src="logo.png" alt="Team">
-<div class="text">
-<p>We are the Green Aliens Team — Year-8 students and local residents working together to revitalise our park with creativity, sustainability, and community spirit.</p>
-<p>Our mission is to turn this funfair into a long-term environmental movement.</p>
-</div>
-</div>
-</section>
-<section style="background-color: white; padding: 100px 10%;">
-<div class="space-container">
-<div style="flex: 1; text-align: left;">
-<h2 style="font-family: 'Archivo Black'; font-size: 35px; margin-bottom: 20px; line-height: 1;">
-               Role of the Funfair in Local Park Revitalization
-</h2>
-<p style="font-size: 1.1rem; line-height: 1.6; color: #1b4332;">
-               A funfair helps bring life back into a park by attracting families, teenagers, and local residents. When more people visit the park, it becomes more active and feels safer.
-</p>
-</div>
-<div style="flex: 1; display: flex; justify-content: center;">
-<div class="pretty-img-frame">
-<img src="https://www.sinorides1992.com/wp-content/uploads/2019/10/Sinorides-fun-valley-park-project.jpg" alt="Space to Use">
-</div>
-</div>
-</div>
+<section class="bg-white py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+
+      <div class="col-12 col-lg-6 text-center text-lg-start">
+        <h2 class="mb-3">
+          Role of the Funfair in Local Park Revitalization
+        </h2>
+        <p>
+          A funfair helps bring life back into a park by attracting families,
+          teenagers, and local residents. When more people visit the park,
+          it becomes more active and feels safer.
+        </p>
+      </div>
+
+      <div class="col-12 col-lg-6 text-center">
+        <div class="pretty-img-frame mx-auto">
+          <img src="https://www.sinorides1992.com/wp-content/uploads/2019/10/Sinorides-fun-valley-park-project.jpg">
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 
 </section>
@@ -541,7 +566,7 @@
 <div class="row g-4">
 
     <!-- Entertainment -->
-    <div class="col-md-4">
+    <div class="col-12 col-md-6 col-lg-4">
         <div class="service-box">
             <img src="https://cdn.digitalagencybangkok.com/file/client-cdn/gnlm/wp-content/uploads/2022/12/DSC_0201-sskm.jpg"
                  class="service-img">
